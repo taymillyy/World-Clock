@@ -4,43 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
 </head>
 <body>
     <div class="container">   
     <h1> World Clock</h1>
-    <select>
-        <option value="">Select a city</option>
-        <option value="London">London</option>
-        <option value="New York">New York</option>
-        <option value="Auckland">Auckland</option>
-        
-    </select>
 
-    <div class="city">
+    <select id="city">
+        <option value="">Select a city</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
+    </select>
+    
+<div id="cities">
+    <div class="city" id="LA">
      <div>
          <h2> Los Angeles</h2>  
-      <div class="date"> Aug 15 2022</div>
+      <div class="date"></div>
       </div>
-      <div class="time"> 03:45:30 <small>PM </small> </div>
+      <div class="time">  </div>
     </div>
 
-    <div class="city">
+    <div class="city" id="Paris">
         <div>
-            <h2> Sydney</h2>  
-         <div class="date"> Aug 15 2022</div>
+            <h2> Paris</h2>  
+         <div class="Parisdate"> </div>
          </div>
-         <div class="time"> 03:45:30 <small>PM </small> </div>
+         <div class="Paristime">  </div>
        </div>
-
-       <div class="city">
-        <div>
-            <h2> New York</h2>  
-         <div class="date"> Aug 15 2022</div>
-         </div>
-         <div class="time"> 03:45:30 <small>PM </small> </div>
        </div>
-   
+       
     <div class="footercontainer" >
 <footer>
     This project was coded by <a src="https://github.com/taymillyy">Tamar Thompson </a> 

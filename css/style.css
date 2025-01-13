@@ -67,3 +67,19 @@ body{
     vertical-align: center;
 }
 
+.Paristime{
+    font-size: 45px;
+    font-weight: bold; 
+    
+}
+
+.Paristime small{
+    font-size: 15px;
+    vertical-align: center;
+}
+
+.Parisdate{
+    font-size: 18px;
+    opacity: 0.9;
+    color:#89CFF0;
+}
